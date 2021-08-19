@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "postinstall": "keystone-next postinstall",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@keystone-next/fields": "^14.0.0",
+    "@keystone-next/keystone": "^24.0.1",
     "next": "11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
